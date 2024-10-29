@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgreen;
+}
+
+header{
+    background:url('https://t4.ftcdn.net/jpg/00/56/89/11/360_F_56891171_Of5ivHXk3yWeJaX7tZaEYP9osibeasJo.jpg') no-repeat center center;
+    background-color: cover;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media only screen and(max-width:600px){
+
+    header{
+        padding: 10px;
+    }
+    nav ul li{
+        display: block;
+        text-align: center;
+        margin:5px 0;
+
+    }
+}
