@@ -5,15 +5,15 @@ document.addEventListener('DOMContentLoaded', function() {
     let angle = 0;
     let animationFrameId;
 
-    function animate() {
+    function animater() {
         angle += 0.1;
         kaleidoscope.style.transform = `rotate(${angle}deg)`;
-        animationFrameId = requestAnimationFrame(animate);
+        animationFrameId = requestAnimationFrame(animater);
     }
 
     startButton.addEventListener('click', function() {
         if (!animationFrameId) {
-            animate();
+            animater();
         }
     });
 
