@@ -4,7 +4,7 @@ class MPESAAccount {
     String phoneNumber;
     double balance;
 
-    // Constructor to initialize the MPESA account
+    // Constructor to effectively  initialize the MPESA account
     public MPESAAccount(String name, String number, double initialBalance) {
         accountHolderName = name;
         phoneNumber = number;
